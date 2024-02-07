@@ -11,8 +11,24 @@
 
 }
 
+img{
+    margin-top: 20px;
+}
+.logo{
+    text-align: center;
+    margin-top:60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width:45%;
+    position:absolute;
+    font-size: 50px;
+    font-family: 'harmonymedium';
+    background-color:rgba(256,0,100,10%);
+    
+}
 .background{
     background-image: url("background.jpg");
+   
 width:45%;
     background-size: cover;
     height:100vh;
@@ -23,6 +39,7 @@ h1,h1{
 }
 .form{
     margin:30px;
+    font-family: 'harmonymedium';
    display: flex;
    flex-direction: column;
   align-items: center;
@@ -68,3 +85,11 @@ align-self: center;
 }
 
 
+@font-face {
+    font-family: 'harmonymedium';
+    src: url('/font/harmony_personal_use-webfont.woff2') format('woff2'),
+         url('/font/harmony_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
