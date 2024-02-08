@@ -68,6 +68,13 @@ input{
     font-size:20px;
 }
 
+input:invalid {
+    border-color: red;
+  }
+
+  input:valid {
+    border-color: green;
+  }
 label{
     width:200px;
 }
